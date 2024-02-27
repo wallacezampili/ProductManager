@@ -1,0 +1,40 @@
+.navbar
+{
+    background-color: var(--primary);
+    color: var(--neutral);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.navbar .logo{
+    font-size: 1.2em;
+}
+
+.navbar ul
+{
+    display: flex;
+}
+
+.navbar ul li
+{
+    list-style-type: none;
+    margin: 0 1em
+}
+
+.navbar ul li a
+{
+    text-decoration: none;
+    color: var(--neutral);
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover
+{
+
+    color: var(--secondary);
+ 
+}
