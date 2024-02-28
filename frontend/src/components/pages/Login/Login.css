@@ -1,0 +1,39 @@
+.login-container
+{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-container form
+{
+    margin: 0 auto;
+    min-width: 300px;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.login-container form input[type="submit"]
+{
+    background-color: var(--primary);
+    border: none;
+    transition: 0.5s;
+    color: #fff;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    margin: 1em 0;
+    border: 2px solid var(--primary);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-container form input[type="submit"]:hover
+{
+    background-color: var(--secondary);
+    border: 2px solid var(--secondary);
+    
+}
